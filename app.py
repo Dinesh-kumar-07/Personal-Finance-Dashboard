@@ -31,7 +31,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 # ── DB config (reads from env with sane defaults) ─────────────────────────────
 DB_HOST     = os.environ.get("DB_HOST",     "localhost")
 DB_USER     = os.environ.get("DB_USER",     "root")
-DB_PASSWORD = os.environ.get("DB_PASSWORD", "Dinesh@2004")
+DB_PASSWORD = os.environ.get("DB_PASSWORD", "yourdbpassword")
 DB_NAME     = os.environ.get("DB_NAME",     "finup")
 
 def get_db():
